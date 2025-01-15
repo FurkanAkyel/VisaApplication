@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yemek Adı" />
+
+    <EditText
+        android:id="@+id/etIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Malzemeler" />
+
+    <EditText
+        android:id="@+id/etRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarif" />
+</LinearLayout>

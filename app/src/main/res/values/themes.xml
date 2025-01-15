@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.VisaApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors for the theme -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#757575</item>
+
+        <!-- Button Colors -->
+        <item name="colorButtonNormal">#FFFFFF</item>
+
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- Extending the base theme -->
+    <style name="Theme.VisaApplication" parent="Base.Theme.VisaApplication" />
+</resources>
